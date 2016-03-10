@@ -1,4 +1,4 @@
-package com.example.colin.mvp_hongyang;
+package com.example.colin.mvp_hongyang.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.example.colin.mvp_hongyang.R;
 import com.example.colin.mvp_hongyang.presenter.UserLoginPresenter;
 import com.example.colin.mvp_hongyang.view.IUserLoginView;
 
