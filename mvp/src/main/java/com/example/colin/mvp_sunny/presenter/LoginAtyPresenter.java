@@ -12,4 +12,6 @@ public class LoginAtyPresenter extends BaseActivity<LoginView> {
     public Class getResenterClass() {
         return LoginView.class;
     }
+
+
 }

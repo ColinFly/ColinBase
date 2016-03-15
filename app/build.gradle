@@ -30,6 +30,8 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:cardview-v7:23.1.1'
 
 
     compile 'de.greenrobot:eventbus:2.4.0'
@@ -47,4 +49,7 @@ dependencies {
 
 
     compile 'com.jiongbull:jlog:1.0.4'
+    //recyclerlistview中的圆角图片
+    compile 'de.hdodenhof:circleimageview:1.3.0'
+    compile 'com.github.bumptech.glide:glide:3.6.0'
 }
